@@ -1,0 +1,95 @@
+/* Body*/
+body {
+  max-width: auto;
+  text-align:center;
+  background-color: #CADCFC;
+  color: #00246B;
+}
+header{
+  border: 1px solid;
+  background-color: #9CC3D5FF;
+}
+
+footer {
+  border-bottom:2px solid #00246B;
+  background-color: #CADCFC;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 5px 0 0 0;
+  
+}
+nav a {
+  background-color:  #00246B;
+  padding:4px;
+  margin:4px;
+  color:#CADCFC;
+  font-weight:bold;
+}
+
+nav a:hover {
+  background-color: #1803A5;
+  color:#96FFBD;
+}
+
+/* Table */
+table {
+  margin:0 auto;
+  width: 100%;
+  border-spacing: 3px;
+}
+
+thead {
+  background-color: #6F9BD1;
+  color: #224193
+
+}
+tr td, td th {
+  border: 1px solid #3B373B;
+  padding: 10px;
+}
+tr:nth-child(even){background-color:#DDDBDE;}
+
+/* Form Field*/
+fieldset {
+  border:None;
+}
+legend {
+  background-color: #CADCFC;
+  color: #00246B;
+  font-weight: bold;
+}
+label {
+  display:block;
+  margin-top:20px;
+}
+input {
+  padding:4px;
+  background-color: #EECCD3;
+  width:200px;
+  border: 2px solid black;
+  color: #00246B;
+}
+select{
+  padding:4px;
+  background-color: #EECCD3;
+  width:210px;
+  border: 2px solid black;
+  color: #00246B;
+}
+
+button {
+  padding:10px;
+  width: fit-content;
+  background-color:  #00246B;
+  color:#CADCFC;
+  border:1px solid gray;
+  border-radius:5px;
+}
+button:hover {
+  background-color: #1803A5;
+  color:#96FFBD;
+}
+
